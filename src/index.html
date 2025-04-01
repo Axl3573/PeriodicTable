@@ -1,0 +1,800 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body class="bg-gray-300">
+
+<div class=" overflow-x-auto">
+
+
+    <div class="flex items-center bg-white rounded-lg shadow-lg justify-center gap-0.5 max-w-3xl mx-auto p-4 mb-4 mt-10">
+      <h1 class="text-3xl font-extrabold">Periodic Table</h1>
+    </div>
+
+    <div class="flex items-center bg-white rounded-lg shadow-lg justify-center gap-0.5 max-w-3xl mx-auto p-4 mb-4 mt-10">
+      <h5>Zoom out if the table is not fully displayed.</h5>
+    </div>
+
+
+    <div class="flex items-center bg-white rounded-lg shadow-lg justify-center gap-0.5 max-w-3xl mx-auto p-4 mb-4 mt-10 elementInformation">
+      <h2 class="text-3xl font-extrabold">Click a element</h2>
+    </div>
+
+
+    <!--Main Container-->
+    <div class="flex items-center justify-center">
+      
+      <div class="bg-white p-8 rounded-lg shadow-lg flex justify-center gap-0.5 my-20">
+
+
+    <!--Grid-->
+        <div class="grid grid-cols-1 gap-0.5">
+    <!--Group 1-->
+        <div class="col-start-1">
+              <div class="bg-purpleElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Hydrogen">
+                  <h2 class="text-2xl font-extrabold my-3">H</h2>
+                  <h2 class="font-extrabold absolute top-1 right-2">1</h2>
+              </div>
+
+              <div class="bg-orange-300 p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Lithium">
+                <h2 class="text-2xl font-extrabold my-3">Li</h2>
+                <h2 class="font-extrabold absolute top-1 right-2">3</h2>
+              </div>
+
+              <div class="bg-orange-300 p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Sodium">
+                  <h2 class="text-2xl font-extrabold my-3">Na</h2>
+                  <h2 class="font-extrabold absolute top-1 right-2">11</h2>
+              </div>
+
+              <div class="bg-orange-300 p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Potassium">
+                <h2 class="text-2xl font-extrabold my-3">K</h2>
+                <h2 class="font-extrabold absolute top-1 right-2">19</h2>
+              </div>
+
+              <div class="bg-orange-300 p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Rubidium">
+                <h2 class="text-2xl font-extrabold my-3">Rb</h2>
+                <h2 class="font-extrabold absolute top-1 right-2">37</h2>
+              </div>
+
+              <div class="bg-orange-300 p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Cesium">
+                <h2 class="text-2xl font-extrabold my-3">Cs</h2>
+                <h2 class="font-extrabold absolute top-1 right-2">55</h2>
+              </div>
+
+              <div class="bg-orange-300 p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Francium">
+                <h2 class="text-2xl font-extrabold my-3">Fr</h2>
+                <h2 class="font-extrabold absolute top-1 right-2">87</h2>
+              </div>   
+        </div>
+    <!--Group 1-->
+
+    <!--Group 2-->
+        <div class="col-start-2">
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class="bg-orange-200 p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Beryllium">
+            <h2 class="text-2xl font-extrabold my-3">Be</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">4</h2>
+          </div>
+
+          <div class="bg-orange-200 p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Magnesium">
+            <h2 class="text-2xl font-extrabold my-3">Mg</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">12</h2>
+          </div>
+
+          <div class="bg-orange-200 p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Calcium">
+            <h2 class="text-2xl font-extrabold my-3">Ca</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">20</h2>
+          </div>
+
+          <div class="bg-orange-200 p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Strontium">
+            <h2 class="text-2xl font-extrabold my-3">Sr</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">38</h2>
+          </div>
+
+          <div class="bg-orange-200 p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Barium">
+            <h2 class="text-2xl font-extrabold my-3">Ba</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">56</h2>
+          </div>
+
+          <div class="bg-orange-200 p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Radium">
+            <h2 class="text-2xl font-extrabold my-3">Ra</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">88</h2>
+          </div>
+        </div>
+    <!--Group 2-->
+
+    <!--Group 3-->
+        <div class="col-start-3">
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Scandium">
+            <h2 class="text-2xl font-extrabold my-3">Sc</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">21</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Yttrium">
+            <h2 class="text-2xl font-extrabold my-3">Y</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">39</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Lutetium">
+            <h2 class="text-2xl font-extrabold my-3">Lu</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">71</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Lawrencium">
+            <h2 class="text-2xl font-extrabold my-3">Lr</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">103</h2>
+          </div>
+        </div>
+        <!--Group 3-->
+
+        <!--Group 4-->
+        <div class="col-start-4">
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Titanium">
+            <h2 class="text-2xl font-extrabold my-3">Ti</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">22</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Zirconium">
+            <h2 class="text-2xl font-extrabold my-3">Zr</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">40</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Hafnium">
+            <h2 class="text-2xl font-extrabold my-3">Hf</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">72</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Rutherfordium">
+            <h2 class="text-2xl font-extrabold my-3">Rf</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">104</h2>
+          </div>
+        </div>
+
+        <!--Group 4-->
+
+        <!--Group 5-->
+        <div class="col-start-5">
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Vanadium">
+            <h2 class="text-2xl font-extrabold my-3">V</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">23</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Niobium">
+            <h2 class="text-2xl font-extrabold my-3">Nb</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">41</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Tantalum">
+            <h2 class="text-2xl font-extrabold my-3">Ta</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">73</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Dubnium">
+            <h2 class="text-2xl font-extrabold my-3">Db</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">105</h2>
+          </div>
+        </div>
+
+        <!--Group 5-->
+
+        <!--Group 6-->
+        <div class="col-start-6">
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Chromium">
+            <h2 class="text-2xl font-extrabold my-3">Cr</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">24</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Molybdenum">
+            <h2 class="text-2xl font-extrabold my-3">Mo</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">42</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Tungsten">
+            <h2 class="text-2xl font-extrabold my-3">W</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">74</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Seaborgium">
+            <h2 class="text-2xl font-extrabold my-3">Sg</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">106</h2>
+          </div>
+        </div>
+
+        <!--Group 6-->
+
+
+        <!--Group 7-->
+        <div class="col-start-7">
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Manganese">
+            <h2 class="text-2xl font-extrabold my-3">Mn</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">25</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Technetium">
+            <h2 class="text-2xl font-extrabold my-3">Tc</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">43</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Rhenium">
+            <h2 class="text-2xl font-extrabold my-3">Re</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">75</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Bohrium">
+            <h2 class="text-2xl font-extrabold my-3">Bh</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">107</h2>
+          </div>
+        </div>
+
+        <!--Group 7-->
+
+
+        <!--Group 8-->
+        <div class="col-start-8">
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Iron">
+            <h2 class="text-2xl font-extrabold my-3">Fe</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">26</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Ruthenium">
+            <h2 class="text-2xl font-extrabold my-3">Ru</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">44</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Osmium">
+            <h2 class="text-2xl font-extrabold my-3">Os</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">76</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Hassium">
+            <h2 class="text-2xl font-extrabold my-3">Hs</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">108</h2>
+          </div>
+        </div>
+
+        <!--Group 8-->
+
+
+        <!--Group 9-->
+        <div class="col-start-9">
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Cobalt">
+            <h2 class="text-2xl font-extrabold my-3">Co</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">27</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Rhodium">
+            <h2 class="text-2xl font-extrabold my-3">Rh</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">45</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Iridium">
+            <h2 class="text-2xl font-extrabold my-3">Ir</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">77</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Meitnerium">
+            <h2 class="text-2xl font-extrabold my-3">Mt</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">109</h2>
+          </div>
+        </div>
+
+        <!--Group 9-->
+
+
+        <!--Group 10-->
+        <div class="col-start-10">
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Nickel">
+            <h2 class="text-2xl font-extrabold my-3">Ni</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">28</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Palladium">
+            <h2 class="text-2xl font-extrabold my-3">Pd</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">46</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Platinum">
+            <h2 class="text-2xl font-extrabold my-3">Pt</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">78</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Darmstadtium">
+            <h2 class="text-2xl font-extrabold my-3">Ds</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">110</h2>
+          </div>
+        </div>
+
+        <!--Group 10-->
+
+
+        <!--Group 11-->
+        <div class="col-start-11">
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Copper">
+            <h2 class="text-2xl font-extrabold my-3">Cu</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">29</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Silver">
+            <h2 class="text-2xl font-extrabold my-3">Ag</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">47</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Gold">
+            <h2 class="text-2xl font-extrabold my-3">Au</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">79</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Roentgenium">
+            <h2 class="text-2xl font-extrabold my-3">Rg</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">111</h2>
+          </div>
+        </div>
+
+        <!--Group 11-->
+
+
+        <!--Group 12-->
+        <div class="col-start-12">
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Zinc">
+            <h2 class="text-2xl font-extrabold my-3">Zn</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">30</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Cadmium">
+            <h2 class="text-2xl font-extrabold my-3">Cd</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">48</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Mercury">
+            <h2 class="text-2xl font-extrabold my-3">Hg</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">80</h2>
+          </div>
+
+          <div class="bg-greenElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Copernicium">
+            <h2 class="text-2xl font-extrabold my-3">Cn</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">112</h2>
+          </div>
+        </div>
+
+        <!--Group 12-->
+
+
+        <!--Group 13-->
+        <div class="col-start-13">
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class="bg-greenTwo p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Boron">
+            <h2 class="text-2xl font-extrabold my-3">B</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">5</h2>
+          </div>
+
+          <div class="bg-yellowElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Aluminium">
+            <h2 class="text-2xl font-extrabold my-3">Al</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">13</h2>
+          </div>
+
+          <div class="bg-yellowElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Gallium">
+            <h2 class="text-2xl font-extrabold my-3">Ga</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">31</h2>
+          </div>
+
+          <div class="bg-yellowElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Indium">
+            <h2 class="text-2xl font-extrabold my-3">In</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">49</h2>
+          </div>
+
+          <div class="bg-yellowElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Thallium">
+            <h2 class="text-2xl font-extrabold my-3">Tl</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">81</h2>
+          </div>
+
+          <div class="bg-yellowElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Nihonium">
+            <h2 class="text-2xl font-extrabold my-3">Nh</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">113</h2>
+          </div>
+        </div>
+
+        <!--Group 13-->
+
+
+        <!--Group 14-->
+        <div class="col-start-14">
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class="bg-purpleElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Carbon">
+            <h2 class="text-2xl font-extrabold my-3">C</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">6</h2>
+          </div>
+
+          <div class="bg-greenTwo p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Silicon">
+            <h2 class="text-2xl font-extrabold my-3">Si</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">14</h2>
+          </div>
+
+          <div class="bg-greenTwo p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Germanium">
+            <h2 class="text-2xl font-extrabold my-3">Ge</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">32</h2>
+          </div>
+
+          <div class="bg-yellowElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Tin">
+            <h2 class="text-2xl font-extrabold my-3">Sn</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">50</h2>
+          </div>
+
+          <div class="bg-yellowElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Lead">
+            <h2 class="text-2xl font-extrabold my-3">Pb</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">82</h2>
+          </div>
+
+          <div class="bg-yellowElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Flevorium">
+            <h2 class="text-2xl font-extrabold my-3">Fl</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">114</h2>
+          </div>
+        </div>
+
+        <!--Group 14-->
+
+
+        <!--Group 15-->
+        <div class="col-start-15">
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class="bg-purpleElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Nitrogen">
+            <h2 class="text-2xl font-extrabold my-3">N</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">7</h2>
+          </div>
+
+          <div class="bg-purpleElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Phosphorus">
+            <h2 class="text-2xl font-extrabold my-3">P</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">15</h2>
+          </div>
+
+          <div class="bg-greenTwo p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Arsenic">
+            <h2 class="text-2xl font-extrabold my-3">As</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">33</h2>
+          </div>
+
+          <div class="bg-greenTwo p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Antimony">
+            <h2 class="text-2xl font-extrabold my-3">Sb</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">51</h2>
+          </div>
+
+          <div class="bg-yellowElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Bismuth">
+            <h2 class="text-2xl font-extrabold my-3">Bi</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">83</h2>
+          </div>
+
+          <div class="bg-yellowElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Moscovium">
+            <h2 class="text-2xl font-extrabold my-3">Mc</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">115</h2>
+          </div>
+        </div>
+
+        <!--Group 15-->
+
+
+        <!--Group 16-->
+        <div class="col-start-16">
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class="bg-purpleElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Oxygen">
+            <h2 class="text-2xl font-extrabold my-3">O</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">8</h2>
+          </div>
+
+          <div class="bg-purpleElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Sulfur">
+            <h2 class="text-2xl font-extrabold my-3">S</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">16</h2>
+          </div>
+
+          <div class="bg-purpleElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Selenium">
+            <h2 class="text-2xl font-extrabold my-3">Se</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">34</h2>
+          </div>
+
+          <div class="bg-greenTwo p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Tellurium">
+            <h2 class="text-2xl font-extrabold my-3">Te</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">52</h2>
+          </div>
+
+          <div class="bg-greenTwo p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Polonium">
+            <h2 class="text-2xl font-extrabold my-3">Po</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">84</h2>
+          </div>
+
+          <div class="bg-yellowElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Livermorium">
+            <h2 class="text-2xl font-extrabold my-3">Lv</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">116</h2>
+          </div>
+        </div>
+
+        <!--Group 16-->
+
+
+        <!--Group 18-->
+
+        <div class="col-start-18">
+
+          <div class=" p-4 w-20 h-20 flex relative my-0.5">
+            <h2 class="text-2xl font-extrabold my-3"></h2>
+            <h2 class="font-extrabold absolute top-1 right-2"></h2>
+          </div>
+
+          <div class="bg-pinkElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Fluorine">
+            <h2 class="text-2xl font-extrabold my-3">F</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">9</h2>
+          </div>
+
+          <div class="bg-pinkElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Chlorine">
+            <h2 class="text-2xl font-extrabold my-3">Cl</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">17</h2>
+          </div>
+
+          <div class="bg-pinkElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Bromine">
+            <h2 class="text-2xl font-extrabold my-3">Br</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">35</h2>
+          </div>
+
+          <div class="bg-pinkElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Iodine">
+            <h2 class="text-2xl font-extrabold my-3">I</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">53</h2>
+          </div>
+
+          <div class="bg-pinkElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Astatine">
+            <h2 class="text-2xl font-extrabold my-3">At</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">85</h2>
+          </div>
+
+          <div class="bg-pinkElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Tennessine">
+            <h2 class="text-2xl font-extrabold my-3">Ts</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">117</h2>
+          </div>
+        </div>
+
+        <!--Group 18-->
+
+
+        <!--Group 19-->
+
+        <div class="col-start-19">
+
+          <div class="bg-blueElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Helium">
+            <h2 class="text-2xl font-extrabold my-3">He</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">2</h2>
+          </div>
+
+          <div class="bg-blueElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Neon">
+            <h2 class="text-2xl font-extrabold my-3">Ne</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">10</h2>
+          </div>
+
+          <div class="bg-blueElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Argon">
+            <h2 class="text-2xl font-extrabold my-3">Ar</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">18</h2>
+          </div>
+
+          <div class="bg-blueElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Krypton">
+            <h2 class="text-2xl font-extrabold my-3">Kr</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">36</h2>
+          </div>
+
+          <div class="bg-blueElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Xenon">
+            <h2 class="text-2xl font-extrabold my-3">Xe</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">54</h2>
+          </div>
+
+          <div class="bg-blueElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Radon">
+            <h2 class="text-2xl font-extrabold my-3">Rn</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">86</h2>
+          </div>
+
+          <div class="bg-blueElement p-4 w-20 h-20 border-2 border-black flex relative my-0.5 element" data-name="Oganesson">
+            <h2 class="text-2xl font-extrabold my-3">Og</h2>
+            <h2 class="font-extrabold absolute top-1 right-2">118</h2>
+          </div>
+        </div>
+
+        <!--Group 19-->
+
+
+          </div>
+    <!--Grid-->
+
+        </div>
+      </div>
+    <!--Main Container-->
+    </div>
+</body>
+
+<script src="./js/script.js"></script>
+
+
+</html>
